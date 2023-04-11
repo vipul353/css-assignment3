@@ -1,0 +1,246 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+}
+
+.store-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.store-heading {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid red;
+  font-size: 30px;
+  color: rgb(153, 11, 82);
+  padding-inline: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  text-shadow: 4px 1px 2px grey;
+  box-shadow: 10px 8px;
+}
+
+.middle-container {
+  height: 600px;
+  width: 100wh;
+  border: 5px solid green;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 170px;
+  background-color: white;
+  border-radius: 20px;
+  border: 6px solid red;
+  box-shadow: 8px 9px 1px 1px purple;
+}
+
+.box1 {
+  float: left;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #3300ff;
+  text-shadow: 1px 1px 0px;
+}
+
+.box2 {
+  float: right;
+  padding: 15px;
+  position: absolute;
+  right: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  float: left;
+  clear: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  top: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 18px;
+  font-weight: bold;
+  color: #170950;
+  text-shadow: 1px 1px 1px;
+}
+
+.box4 {
+  float: right;
+  clear: right;
+  padding: 15px;
+  position: absolute;
+  right: 61px;
+  top: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: 18px;
+  font-weight: bold;
+  color: #170950;
+  text-shadow: 1px 1px 1px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #170950;
+  margin-top: 30px;
+}
+
+input {
+  width: 100px;
+}
+
+.button {
+  color: black;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.last-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.last-container {
+  width: 744px;
+  height: 567px;
+  background-color: green;
+  border: 7px solid purple;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 360px;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 15px;
+  margin: 5px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: medium;
+  font-style: italic;
+  color: black;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.left-container {
+  float: left;
+  margin-bottom: 15px;
+}
+.right-container {
+  float: right;
+  margin-bottom: 15px;
+}
+
+.bottom-container {
+  width: 750px;
+  height: 215px;
+  background-color: yellow;
+  clear: both;
+  margin: 5px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: medium;
+  font-style: italic;
+  color: black;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.contained-heading {
+  font-size: x-large;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pop-up {
+  position: fixed;
+  padding: 15px;
+  height: 93px;
+  width: 581px;
+  background-color: greenyellow;
+  bottom: 57px;
+  left: 389px;
+  border: 9px solid red;
+  border-radius: 20px;
+  box-shadow: 9px 9px 1px 1px purple;
+  box-sizing: border-box;
+}
+
+.pop-up-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.pop-up-column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pop-up-column2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
